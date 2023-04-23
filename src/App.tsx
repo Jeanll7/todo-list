@@ -35,12 +35,12 @@ function App() {
       <ToastContainer autoClose={2500} pauseOnHover={false} />
 
       <header>
-        <h2>Lists</h2>
+        <h2>Lista de Tarefas</h2>
 
         <input
           type="text"
           autoComplete="off"
-          placeholder="Escrever task..."
+          placeholder="Escrever uma tarefa..."
           name="task"
           className="input"
           value={task}
@@ -48,7 +48,7 @@ function App() {
         />
 
         <button type="submit" onClick={addTask} className="btn-header">
-          Adicionar Task
+          Adicionar Tarefa
         </button>
       </header>
 
